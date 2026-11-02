@@ -8,8 +8,6 @@ Welcome to the official legal registry for **The Legends Lab company**. This rep
 Comprehensive governance framework protecting both company infrastructure and user confidentiality.
 
 * 📑 **[The Legends Lab - Master Privacy Policy & Legal Terms (PDF)][(./The_Legends_Lab_Privacy_Policy_And_Terms.pdf](https://github.com/legendslab-official/privacy-policies/blob/main/The_Legends_Lab_Privacy_Policy.pdf))**
-  *Contains global data architecture rules, strict limitation of company liability, cyber breach disclaimers, and proprietary asset protection.*
-
 ---
 
 ## 📱 Application-Specific Policies
