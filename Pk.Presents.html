@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PK.Presents</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .header-info {
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>App-Specific Privacy Policy: PK.Presents</h1>
+
+    <div class="header-info">
+        <table>
+            <tr>
+                <th>Application</th>
+                <td>PK.Presents (Desktop & Web App)</td>
+                <th>Effective Date</th>
+                <td>16-11-2026</td>
+            </tr>
+            <tr>
+                <th>Entity</th>
+                <td>The Legends Lab Company</td>
+                <th>Contact Email</th>
+                <td><a href="mailto:ali.legends.lab.company@gmail.com">ali.legends.lab.company@gmail.com</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <p>This App-Specific Privacy Policy applies exclusively to PK.Presents (the "App"). It supplements and should be read together with The Legends Lab Company's Master Privacy Policy, available at <a href="https://legendslab-official.github.io/privacy-policies/">https://legendslab-official.github.io/privacy-policies/</a>. In case of any conflict regarding this App, this document controls.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We follow strict data minimization. We only collect what is necessary to provide the App's functionality.</p>
+
+    <h3>1.1 Account Information (Free &amp; Pro Users)</h3>
+    <p>When you create an account (via Email/Password or Google Login), we collect and store the following via our secure database (Google Firebase):</p>
+    <ul>
+        <li>Name and Email address</li>
+        <li>Firebase User ID (UID)</li>
+        <li>Profile Picture / Avatar URL (if provided)</li>
+    </ul>
+
+    <h3>1.2 Pro Users &amp; Payment Data</h3>
+    <p>If you choose to upgrade to a **Pro Subscription**, we collect and store the following additional information in our secure database solely for subscription validation and billing support:</p>
+    <ul>
+        <li><strong>Phone Number:</strong> Used to verify your identity and match your payment.</li>
+        <li><strong>Transaction ID (TID) / Payment Reference:</strong> Used to verify that your payment was successful and to activate your Pro features.</li>
+    </ul>
+    <p><strong>We do not collect, view, or store your credit card details, bank account numbers, or full financial credentials.</strong> All actual payment processing is handled by third-party payment channels or manual verification.</p>
+
+    <h3>1.3 User Content &amp; Project Data</h3>
+    <p>Your presentations and project files are stored securely to allow you to access them. We do not claim ownership of your content.</p>
+
+    <h3>1.4 AI Feature Processing</h3>
+    <ul>
+        <li><strong>Google Gemini API:</strong> When you use AI features to generate presentations, your text prompts or images are transmitted via encrypted HTTPS to the Google Gemini API. This data is processed ephemerally to generate the content and is not retained by us after the request is fulfilled.</li>
+        <li><strong>Local Processing (Background Removal &amp; OCR):</strong> Features like Background Removal (Silueta ONNX) and Optical Character Recognition (Tesseract.js) run <strong>entirely on your local device</strong>. Your images for these features are never uploaded to our servers.</li>
+    </ul>
+
+    <h3>1.5 Technical &amp; Diagnostic Data</h3>
+    <p>To ensure security and stability, we automatically collect basic technical data for all users:</p>
+    <ul>
+        <li>IP Address, User-Agent, and Page URL (for rate-limiting and security audits).</li>
+        <li>Crash logs and error reports (to fix bugs and improve performance).</li>
+    </ul>
+
+    <h2>2. Third-Party Services</h2>
+    <p>We use the following third-party providers strictly to operate the App:</p>
+    <table>
+        <tr>
+            <th>Service Provider</th>
+            <th>Purpose</th>
+            <th>Data Shared</th>
+        </tr>
+        <tr>
+            <td>Google Firebase</td>
+            <td>Authentication &amp; Database</td>
+            <td>Name, Email, UID, Projects, Phone, TID (Pro users only)</td>
+        </tr>
+        <tr>
+            <td>Google Gemini API</td>
+            <td>AI Presentation Generation</td>
+            <td>Text Prompts / Images (Ephemeral)</td>
+        </tr>
+        <tr>
+            <td>Email Providers (e.g., Resend, Brevo)</td>
+            <td>Transactional Emails (OTP, Password Reset)</td>
+            <td>Email Address, Name</td>
+        </tr>
+        <tr>
+            <td>Google Fonts &amp; Unsplash</td>
+            <td>UI Assets &amp; Images</td>
+            <td>IP Address, User-Agent (via browser)</td>
+        </tr>
+    </table>
+    <p>We do not sell your personal data to any third party.</p>
+
+    <h2>3. Open-Source Disclosures</h2>
+    <p>PK.Presents utilizes various open-source libraries to function (e.g., React, Express, Tesseract.js, ONNX Runtime). These libraries operate under their respective permissive licenses (MIT, Apache-2.0, etc.).</p>
+
+    <h2>4. Data Retention &amp; Deletion</h2>
+    <ul>
+        <li><strong>Account &amp; Projects:</strong> Retained until you request account deletion.</li>
+        <li><strong>Pro Subscription Records:</strong> Phone numbers and Transaction IDs are retained as long as your Pro account is active. Upon deletion, we will remove them within 30 days, except where retention is required by law (e.g., tax or accounting purposes).</li>
+        <li><strong>Security &amp; Crash Logs:</strong> Retained for a maximum of 90 days, after which they are deleted or anonymized.</li>
+        <li><strong>Deletion Rights:</strong> You can request the deletion of your account and all associated data by emailing us.</li>
+    </ul>
+
+    <h2>5. Your Privacy Rights (GDPR &amp; CCPA)</h2>
+    <p>Depending on your location, you have the right to:</p>
+    <ul>
+        <li>Access the personal data we hold about you.</li>
+        <li>Request correction or deletion of your data.</li>
+        <li>Object to or restrict processing.</li>
+        <li>Data portability (export your projects).</li>
+    </ul>
+    <p>To exercise any of these rights, contact <a href="mailto:ali.legends.lab.company@gmail.com">ali.legends.lab.company@gmail.com</a>.</p>
+
+    <h2>6. Security &amp; International Transfers</h2>
+    <p>Data is encrypted in transit using HTTPS/TLS. Our third-party providers (like Firebase and Google) may process data on servers located outside your country of residence, operating under standard data protection clauses.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>This App is not intended for children under the age of 13. We do not knowingly collect personal data from children. If we discover such data, it will be deleted immediately.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>For privacy questions or account deletion requests:</p>
+    <p><strong>Organization:</strong> The Legends Lab Company<br>
+    <strong>Email:</strong> <a href="mailto:ali.legends.lab.company@gmail.com">ali.legends.lab.company@gmail.com</a></p>
+
+    <div class="footer">
+        &copy; 2026 The Legends Lab Company. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
